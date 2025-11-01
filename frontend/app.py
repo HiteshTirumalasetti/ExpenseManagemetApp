@@ -7,7 +7,7 @@ from analytics import view_expense_category,view_expense_month
 
 api_url = 'http://127.0.0.1:8000' 
 
-st.title("Expense Management App")
+st.title("Expense Management Application")
 
 tab1, tab2, tab3 = st.tabs(["Add/Update Expenses", "Expenses by Category", "Expenses by Month"])
 
